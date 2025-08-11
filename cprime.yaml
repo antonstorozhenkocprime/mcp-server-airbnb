@@ -1,0 +1,17 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+
+server_name: mcp-server-airbnb
+command: npx
+args:
+  - -y
+  - '@openbnb/mcp-server-airbnb'
+env: []
+
+description: Testing.
+owner: Anton S
+license: Apache-2.0
+package: mcp-server-airbnb
+vendor: Cprime
