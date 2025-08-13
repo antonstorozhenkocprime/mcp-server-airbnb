@@ -7,7 +7,7 @@ server_name: mcp-server-airbnb
 command: npx
 args:
   - -y
-  - '@openbnb/mcp-server-airbnb'
+  - '@openbnb/mcp-server-airbnb@latest'
 env: []
 
 description: Testing.
