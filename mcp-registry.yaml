@@ -1,0 +1,17 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+
+server_name: mcp-server-airbnb
+command: npx
+args:
+  - -y
+  - 'mcp-server-airbnb@latest'
+env: []
+
+description: MCP server for Airbnb search and listing details.
+owner: Anton Storozhenko
+license: MIT
+package: mcp-server-airbnb
+vendor: itsantonstorozhenko
